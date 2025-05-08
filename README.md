@@ -7,5 +7,5 @@ My Terminal Dotfiles
 Clone the repository
 
 ```sh
-git clone https://github.com/NikitaTLN/Terminal-dots
+git clone https://github.com/NikitaTLN/Terminal-dots.git
 ```
