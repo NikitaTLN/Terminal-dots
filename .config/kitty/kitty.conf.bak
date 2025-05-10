@@ -224,7 +224,8 @@ hide_window_decorations yes
 #: platform implements it, so use with care. Currently supported on
 #: macOS and KDE.
 
-background_image ~/Terminal-dots/wallpaper/tinted.jpg
+background_image ~/Terminal-dots/wallpaper/wallpaperflare.com_wallpaper.jpg
+
 #: Path to a background image. Must be in PNG/JPEG/WEBP/TIFF/GIF/BMP
 #: format.
 
@@ -260,14 +261,13 @@ background_image_layout cscaled
 #:     transparent_background_colors red@0.5 #00ff00@0.3
 
 # dynamic_background_opacity no
-#background_opacity 0.8
 
 #: Allow changing of the background_opacity dynamically, using either
 #: keyboard shortcuts (increase_background_opacity and
 #: decrease_background_opacity) or the remote control facility.
 #: Changing this option by reloading the config is not supported.
 
-background_tint 0.22
+# background_tint 0.0
 
 #: How much to tint the background image by the background color. This
 #: option makes it easier to read the text. Tinting is done using the
@@ -1628,6 +1628,6 @@ background_tint 0.22
 
 
 # BEGIN_KITTY_THEME
-#Catppuccin-Mocha
-include Catppuccin-Macchiato.conf
+# Catppuccin-Macchiato
+include current-theme.conf
 # END_KITTY_THEME
